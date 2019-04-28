@@ -1,6 +1,6 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
-<h1 align="center">Electron Launcher</h1>
+<h1 align="center">Battlefields</h1>
 
 [<p align="center"><img src="https://img.shields.io/travis/dscalzi/ElectronLauncher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/dscalzi/ElectronLauncher) [<img src="https://img.shields.io/github/downloads/dscalzi/ElectronLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/ElectronLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
 

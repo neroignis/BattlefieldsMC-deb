@@ -1,11 +1,11 @@
 {
-  "name": "electronlauncher",
+  "name": "battlefieldslauncher",
   "version": "1.6.0",
-  "productName": "Electron Launcher",
+  "productName": "Battlefields Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), JacksonPlayz (http://jacksonplayz.com)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/ElectronLauncher",
+  "homepage": "https://github.com/BattlefieldsMC/ElectronLauncher",
   "bugs": {
     "url": "https://github.com/dscalzi/ElectronLauncher/issues"
   },
@@ -47,13 +47,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/ElectronLauncher.git"
+    "url": "git+https://github.com/BattlefieldsMC/ElectronLauncher.git"
   },
   "build": {
-    "appId": "electronlauncher",
-    "productName": "Electron Launcher",
+    "appId": "battlefieldslauncher",
+    "productName": "Battlefields",
     "artifactName": "${productName}.${ext}",
-    "copyright": "Copyright © 2018-2019 Daniel Scalzi",
+    "copyright": "Copyright © 2018-2019 Battlefields",
     "directories": {
       "buildResources": "build",
       "output": "dist"
