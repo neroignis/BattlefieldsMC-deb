@@ -229,23 +229,23 @@
                     ]
                 },
                 {
-                    "id": "Noppes:customnpcs:1.12_Jan30",
-                    "name": "Custom NPCs",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 10364899,
-                         "MD5": "41dd749f0ea2a95ac6745684c2f4c26e",
-                        "url": "https://media.forgecdn.net/files/2666/900/CustomNPCs_1.12.2(30Jan19).jar"
-                    }
-                },
-                {
                     "id": "CUBG:cubga:1.24.0",
                     "name": "CUBG Additions",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 17970270,
-                        "MD5": "8E258785DC209C907D91187C6403ED69",
-                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/571608124751085568/cubga-1.24.0-1.12.2.jar"
+                        "size": 17969267,
+                        "MD5": "12DAD3CD2162CCEEAF048B5892E60750",
+                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/572558212021354506/cubga-1.24.0-1.12.2.jar"
+                    }
+                },
+                {
+                    "id": "Battlefields:bfdrp:1.0",
+                    "name": "Battlefields Discord RP",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2076935,
+                        "MD5": "3DD2D1BDB46FAE6AB76747845C2CCFA4",
+                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/572557929182527490/bfdrp-1.0-1.12.2.jar"
                     }
                 },
                 {
@@ -286,6 +286,16 @@
                         "size": 37885,
                         "MD5": "CD9A7BA708E9678A1DE66865A7C9AE14",
                         "url": "https://media.forgecdn.net/files/2625/165/obfuscate-0.2.6-1.12.2.jar"
+                    }
+                },
+                {
+                    "id": "Noppes:customnpcs:1.12_Jan30",
+                    "name": "Custom NPCs",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 10364899,
+                         "MD5": "41dd749f0ea2a95ac6745684c2f4c26e",
+                        "url": "https://media.forgecdn.net/files/2666/900/CustomNPCs_1.12.2(30Jan19).jar"
                     }
                 },
                 {
