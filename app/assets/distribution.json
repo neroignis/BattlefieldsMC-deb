@@ -240,12 +240,12 @@
                 },
                 {
                     "id": "Battlefields:bfdrp:1.0",
-                    "name": "Battlefields Discord RP",
+                    "name": "Battlefields Discord Rich Presence",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2076935,
-                        "MD5": "3DD2D1BDB46FAE6AB76747845C2CCFA4",
-                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/572557929182527490/bfdrp-1.0-1.12.2.jar"
+                        "size": 2076730,
+                        "MD5": "85AFE0D327DA0C89A8CD76EBFE8DAADB",
+                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/572569473610022912/bfdrp-1.0-1.12.2.jar"
                     }
                 },
                 {
