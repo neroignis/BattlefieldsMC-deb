@@ -9,7 +9,7 @@
             "id": "Battlefields-Singapore",
             "name": "Battlefields Singapore",
             "description": "The official Battlefields server hosted in Singapore.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
+            "icon": "https://raw.githubusercontent.com/BattlefieldsMC/ElectronLauncher/master/app/assets/images/SmallLogo.png",
             "version": "1.0-pre7",
             "address": "cubg.jacksonplayz.com",
             "minecraftVersion": "1.12.2",
