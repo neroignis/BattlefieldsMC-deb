@@ -14,7 +14,7 @@
             "address": "cubg.jacksonplayz.com",
             "minecraftVersion": "1.12.2",
             "mainServer": true,
-            "autoconnect": true,
+            "autoconnect": false,
             "modules": [
                 {
                     "id": "net.minecraftforge:forge:1.12.2-14.23.5.2768",
