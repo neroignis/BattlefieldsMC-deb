@@ -229,13 +229,13 @@
                     ]
                 },
                 {
-                    "id": "CUBG:cubga:1.24.0",
+                    "id": "CUBG:cubga:1.25.0",
                     "name": "CUBG Additions",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 17969267,
-                        "MD5": "12DAD3CD2162CCEEAF048B5892E60750",
-                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/572558212021354506/cubga-1.24.0-1.12.2.jar"
+                        "size": 15983774,
+                        "MD5": "DA0A7581E4F472E6AB9B96F981DED9B2",
+                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/576674324832845824/cubga-1.25.0-1.12.2.jar"
                     }
                 },
                 {
