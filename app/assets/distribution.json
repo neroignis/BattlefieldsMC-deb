@@ -3,27 +3,27 @@
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://westeroscraft.com/articles/index.rss",
+    "rss": "https://medium.com/feed/battlefields",
     "servers": [
         {
-            "id": "Battlefields-Singapore",
+            "id": "bf-sg",
             "name": "Battlefields Singapore",
             "description": "The official Battlefields server hosted in Singapore.",
             "icon": "https://raw.githubusercontent.com/BattlefieldsMC/ElectronLauncher/master/app/assets/images/SmallLogo.png",
-            "version": "1.0-pre7",
-            "address": "cubg.jacksonplayz.com",
+            "version": "1.0ea",
+            "address": "server.cubgmc.net",
             "minecraftVersion": "1.12.2",
             "mainServer": true,
             "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2768",
+                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2838",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 4888981,
-                        "MD5": "B21AC8C1404EE9A03F4F4C99385AC815",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2768-universal.jar"
+                        "size": 5035170,
+                        "MD5": "8112748766BA92310141FEF972FC1AE6",
+                        "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-universal.jar"
                     },
                     "subModules": [
                         {
