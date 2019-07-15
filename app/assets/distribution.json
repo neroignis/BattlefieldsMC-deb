@@ -229,18 +229,18 @@
                     ]
                 },
                 {
-                    "id": "CUBG:cubga:1.25.0",
-                    "name": "CUBG Additions",
+                    "id": "Battlefields:cubga:1.33.0",
+                    "name": "Battlfields - Core",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 15985413,
-                        "MD5": "8BAAA7CD9F8DEE12FEB615A39282889C",
-                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/576998136359419914/cubga-1.25.0-1.12.2.jar"
+                        "size": 16832391,
+                        "MD5": "AD1AFDEDFF11DEF68DC4FF329C79A551",
+                        "url": "https://cdn.discordapp.com/attachments/593588793488048128/599107401282617345/battlefields-1.33.0-1.12.2.jar"
                     }
                 },
                 {
                     "id": "Battlefields:bfdrp:1.0",
-                    "name": "Battlefields Discord Rich Presence",
+                    "name": "Battlefields - Rich Presence",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2076976,
@@ -249,33 +249,33 @@
                     }
                 },
                 {
-                    "id": "MrCrayfish:furniture:6.2.0",
+                    "id": "MrCrayfish:furniture:6.3.0",
                     "name": "MrCrayfish's Furniture Mod",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2392284,
-                        "MD5": "a7e3ab87b8f84d3caf1af4fbad412239",
-                        "url": "https://media.forgecdn.net/files/2648/279/furniture-6.2.0-1.12.2.jar"
+                        "size": 2454924,
+                        "MD5": "b1e5c79ed6e9e4602f25419e21497975",
+                        "url": "https://media.forgecdn.net/files/2715/314/furniture-6.3.0-1.12.2.jar"
                     }
                 },
                 {
-                    "id": "MrCrayfish:guns:0.11.0",
+                    "id": "MrCrayfish:guns:0.12.1",
                     "name": "MrCrayfish's Gun Mod",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 699742,
-                        "MD5": "9538CFB02F45F9FA20FE8B8525193222",
-                        "url": "https://cdn.discordapp.com/attachments/523294274607906836/574834365650173952/guns-0.11.0-1.12.2.jar"
+                        "size": 748271,
+                        "MD5": "C79EE93E503EE3970CD589990A3CF250",
+                        "url": "https://media.forgecdn.net/files/2716/6/guns-0.12.1-1.12.2.jar"
                     }
                 },
                 {
-                    "id": "MrCrayfish:vehicle:0.38.1",
+                    "id": "MrCrayfish:vehicle:0.41.1",
                     "name": "MrCrayfish's Vehicle Mod",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 1684775,
-                        "MD5": "FD2ED0461EC5E5F4CD6DA90807022D13",
-                        "url": "https://media.forgecdn.net/files/2690/746/vehicle-mod-0.38.1-1.12.2.jar"
+                        "size": 1918855,
+                        "MD5": "B13D83539AE370BA97466181485F674F",
+                        "url": "https://media.forgecdn.net/files/2715/570/vehicle-mod-0.41.0-1.12.2.jar"
                     }
                 },
                 {
@@ -336,19 +336,6 @@
                         "size": 76849,
                         "MD5": "48C69C832F4176A7573203586AA3D52D",
                         "url": "https://media.forgecdn.net/files/2664/709/OnlinePicFrame_v1.4.23_mc1.12.2.jar"
-                    }
-                },
-                {
-                    "id": "Hexosse:worldeditcuife2:2.2.0",
-                    "name": "WorldEditCUI",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 459294,
-                        "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/worldeditcuife.jar"
                     }
                 }
             ]
