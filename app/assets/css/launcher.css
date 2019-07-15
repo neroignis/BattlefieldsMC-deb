@@ -114,7 +114,6 @@ body, button {
 }
 #frameImage {
     height: 15px;
-    filter: grayscale(100%);
 }
 
 /* Windows frame button dock. */
