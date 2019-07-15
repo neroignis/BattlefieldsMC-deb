@@ -269,13 +269,13 @@
                     }
                 },
                 {
-                    "id": "MrCrayfish:vehicle:0.38.1",
+                    "id": "MrCrayfish:vehicle:0.41.1",
                     "name": "MrCrayfish's Vehicle Mod",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 1918855,
                         "MD5": "B13D83539AE370BA97466181485F674F",
-                        "url": "https://media.forgecdn.net/files/2715/570/vehicle-mod-0.41.1-1.12.2.jar"
+                        "url": "https://media.forgecdn.net/files/2715/570/vehicle-mod-0.41.0-1.12.2.jar"
                     }
                 },
                 {
