@@ -13,93 +13,40 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "cilinux": "electron-builder --linux --win",
-    "cidarwin": "electron-builder --mac",
-    "dist": "cross-env ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true electron-builder",
-    "dist:win": "npm run dist -- --win --x64",
-    "dist:mac": "npm run dist -- --mac",
-    "dist:linux": "npm run dist -- --linux --x64",
+    "cilinux": "node build.js WINDOWS && node build.js LINUX",
+    "cidarwin": "node build.js MAC",
+    "dist": "cross-env ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true node build.js",
+    "dist:win": "npm run dist -- WINDOWS",
+    "dist:mac": "npm run dist -- MAC",
+    "dist:linux": "npm run dist -- LINUX",
     "lint": "eslint --config .eslintrc.json ."
   },
   "engines": {
-    "node": "10.x.x"
+    "node": "12.x.x"
   },
   "dependencies": {
     "adm-zip": "^0.4.13",
-    "async": "^3.0.1-0",
-    "discord-rpc": "github:discordjs/RPC",
-    "ejs": "^2.6.1",
+    "async": "^3.1.0",
+    "discord-rpc": "3.0.2",
+    "ejs": "^2.6.2",
     "ejs-electron": "^2.0.3",
-    "electron-updater": "^4.0.6",
-    "fs-extra": "^7.0.1",
+    "electron-updater": "^4.1.2",
+    "fs-extra": "^8.1.0",
     "github-syntax-dark": "^0.5.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "request": "^2.88.0",
-    "semver": "^5.6.0",
+    "semver": "^6.2.0",
     "tar-fs": "^2.0.0",
     "winreg": "^1.2.4"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "electron": "^4.1.0",
-    "electron-builder": "^20.39.0",
-    "eslint": "^5.15.2"
+    "electron": "^5.0.6",
+    "electron-builder": "^21.0.15",
+    "eslint": "^6.0.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BattlefieldsMC/ElectronLauncher.git"
-  },
-  "build": {
-    "appId": "battlefieldslauncher",
-    "productName": "Battlefields",
-    "artifactName": "${productName}.${ext}",
-    "copyright": "Copyright © 2018-2019 Battlefields",
-    "directories": {
-      "buildResources": "build",
-      "output": "dist"
-    },
-    "win": {
-      "target": [
-        {
-          "target": "nsis",
-          "arch": "x64"
-        }
-      ],
-      "icon": "build/icon.ico"
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowElevation": true,
-      "installerIcon": "build/icon.ico",
-      "uninstallerIcon": "build/icon.ico",
-      "allowToChangeInstallationDirectory": true
-    },
-    "mac": {
-      "target": "dmg",
-      "category": "public.app-category.games",
-      "icon": "build/icon.icns"
-    },
-    "linux": {
-      "target": "AppImage",
-      "maintainer": "Daniel Scalzi",
-      "vendor": "Daniel Scalzi",
-      "synopsis": "Modded Minecraft Launcher",
-      "description": "Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.",
-      "category": "Game"
-    },
-    "deb": {
-      "compression": "xz",
-      "packageCategory": "Games",
-      "priority": "optional"
-    },
-    "compression": "maximum",
-    "files": [
-      "!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.travis.yml,.nvmrc,.eslintrc.json}"
-    ],
-    "extraResources": [
-      "libraries"
-    ],
-    "asar": true
   }
 }
