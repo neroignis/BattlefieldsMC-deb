@@ -10,7 +10,7 @@
             "name": "Battlefields Singapore",
             "description": "The official Battlefields server hosted in Singapore.",
             "icon": "https://raw.githubusercontent.com/BattlefieldsMC/ElectronLauncher/master/app/assets/images/SmallLogo.png",
-            "version": "1.0ea",
+            "version": "1.0",
             "address": "server.cubgmc.net",
             "minecraftVersion": "1.12.2",
             "mainServer": true,
@@ -233,9 +233,9 @@
                     "name": "Battlfields - Core",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 16832391,
-                        "MD5": "AD1AFDEDFF11DEF68DC4FF329C79A551",
-                        "url": "https://cdn.discordapp.com/attachments/593588793488048128/599107401282617345/battlefields-1.33.0-1.12.2.jar"
+                        "size": 16861359,
+                        "MD5": "443f82fbe9843089f888b06ec208f546",
+                        "url": "https://media.forgecdn.net/files/2743/110/battlefields-1.33.3-1.12.2.jar"
                     }
                 },
                 {
