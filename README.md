@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.discordapp.com/app-assets/474221751119904768/store/596287921703747594.png?size=1024" width="150px" height="150px" alt="Battlefields: Early Access"></p>
+<p align="center"><img src="https://cdn.discordapp.com/app-assets/474221751119904768/store/596287921703747594.png?size=1024 alt="Battlefields: Early Access"></p>
 
 <h1 align="center">Battlefields Launcher</h1>
 
