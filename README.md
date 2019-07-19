@@ -1,10 +1,8 @@
-<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
+<p align="center"><img src="https://cdn.discordapp.com/app-assets/474221751119904768/store/596287921703747594.png?size=1024" width="150px" height="150px" alt="Battlefields: Early Access"></p>
 
-<h1 align="center">Battlefields</h1>
+<h1 align="center">Battlefields Launcher</h1>
 
-[<p align="center"><img src="https://img.shields.io/travis/dscalzi/ElectronLauncher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/dscalzi/ElectronLauncher) [<img src="https://img.shields.io/github/downloads/dscalzi/ElectronLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/ElectronLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
-
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+<p align="center">Join the Battlefieds server without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
 ![Screenshot 1](https://i.imgur.com/M8HVW9H.jpg)
 ![Screenshot 2](https://i.imgur.com/zDiSoq4.jpg)
@@ -194,7 +192,7 @@ We reserve the right to update these conditions at any time, please check back p
 
 The best way to contact the developers is on Discord.
 
-[![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
+[![discord](https://discordapp.com/api/guilds/421839473568120843/embed.png?style=banner3)][discord]
 
 ---
 
@@ -206,5 +204,5 @@ The best way to contact the developers is on Discord.
 [mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/zNWUXdt 'Discord'
+[discord]: https://discord.gg/gmcMRRk 'Discord'
 [wiki]: https://github.com/dscalzi/ElectronLauncher/wiki 'wiki'
