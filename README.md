@@ -2,10 +2,9 @@
 
 <h1 align="center">Battlefields Launcher</h1>
 
-<p align="center">Join the Battlefieds server without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+<p align="center">Join the Battlefields server without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
-![Screenshot 1](https://i.imgur.com/M8HVW9H.jpg)
-![Screenshot 2](https://i.imgur.com/zDiSoq4.jpg)
+![Screenshot 1](https://cdn.discordapp.com/attachments/395795440919904257/601488361185869841/HowToInstallBattlefields.png)
 
 ## Features
 
@@ -68,108 +67,6 @@ Ensure that you have the console tab selected. Do not paste anything into the co
 If you want to export the console output, simply right click anywhere on the console and click **Save as..**
 
 ![console example](https://i.imgur.com/HazXrgT.png)
-
-
-## Development
-
-### Getting Started
-
-**System Requirements**
-
-* [Node.js][nodejs] v12.x.x
-
----
-
-**Clone and Install Dependencies**
-
-```console
-> git clone https://github.com/dscalzi/ElectronLauncher.git
-> cd ElectronLauncher
-> npm install
-```
-
----
-
-**Launch Application**
-
-```console
-> npm start
-```
-
----
-
-**Build Installers**
-
-To build for your current platform.
-
-```console
-> npm run dist
-```
-
-Build for a specific platform.
-
-| Platform    | Command              |
-| ----------- | -------------------- |
-| Windows x64 | `npm run dist:win`   |
-| macOS       | `npm run dist:mac`   |
-| Linux x64   | `npm run dist:linux` |
-
-Builds for macOS may not work on Windows/Linux and vice-versa.
-
----
-
-### Visual Studio Code
-
-All development of the launcher should be done using [Visual Studio Code][vscode].
-
-Paste the following into `.vscode/launch.json`
-
-```JSON
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Debug Main Process",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceRoot}",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
-      "windows": {
-        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
-      },
-      "args": ["."],
-      "console": "integratedTerminal",
-      "protocol": "inspector"
-    },
-    {
-      "name": "Debug Renderer Process",
-      "type": "chrome",
-      "request": "launch",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
-      "windows": {
-        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
-      },
-      "runtimeArgs": [
-        "${workspaceRoot}/.",
-        "--remote-debugging-port=9222"
-      ],
-      "webRoot": "${workspaceRoot}"
-    }
-  ]
-}
-```
-
-This adds two debug configurations.
-
-#### Debug Main Process
-
-This allows you to debug Electron's [main process][mainprocess]. You can debug scripts in the [renderer process][rendererprocess] by opening the DevTools Window.
-
-#### Debug Renderer Process
-
-This allows you to debug Electron's [renderer process][rendererprocess]. This requires you to install the [Debugger for Chrome][chromedebugger] extension.
-
-Note that you **cannot** open the DevTools window while using this debug configuration. Chromium only allows one debugger, opening another will crash the program.
 
 ---
 
