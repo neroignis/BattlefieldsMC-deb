@@ -33,24 +33,9 @@ This is not an exhaustive list. Download and install the launcher to gauge all i
 
 ## Downloads
 
-You can download from [GitHub Releases](https://github.com/dscalzi/ElectronLauncher/releases)
+You can download from [GitHub Releases](https://github.com/dscalzi/ElectronLauncher/releases) or from our [Discord](https://discord.gg/gmcMRRk)!
 
-#### Latest Release
-
-[![](https://img.shields.io/github/release/dscalzi/ElectronLauncher.svg?style=flat-square)](https://github.com/dscalzi/ElectronLauncher/releases/latest)
-
-#### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/ElectronLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/ElectronLauncher/releases)
-
-**Supported Platforms**
-
-If you download from the [Releases](https://github.com/dscalzi/ElectronLauncher/releases) tab, select the installer for your system.
-
-| Platform | File |
-| -------- | ---- |
-| Windows x64 | `electronlauncher-setup-VERSION.exe` |
-| macOS | `electronlauncher-VERSION.dmg` |
-| Linux x64 | `electronlauncher-VERSION-x86_64.AppImage` |
+The launcher is only available for Windows if you install through Discord.
 
 ## Console
 
